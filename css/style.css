@@ -374,7 +374,7 @@ section .title::after{
 .skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
+.skills-content .right .python::before{
     width: 50%;
 }
 .skills-content .right .mysql::before{
@@ -680,4 +680,4 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-} */ */
+} */ 
