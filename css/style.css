@@ -48,7 +48,7 @@ section{
 }
 .about .about-content, 
 .skills .skills-content,
-.services .services-content,
+.services .serv-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -262,6 +262,7 @@ section .title::after{
 }
 
 
+
 .services, .teams{
     color:#fff;
     background: #111;
@@ -307,9 +308,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-
-
-.skills .title::after{
+/* .skills .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -382,7 +381,6 @@ section .title::after{
     width: 70%;
 }
 
-/* 
 .teams .title::after{
     content: "who with me";
 }
@@ -444,7 +442,6 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
-
 
 .contact .title::after{
     content: "get in touch";
@@ -542,7 +539,6 @@ section .title::after{
     background: none;
 }
 
-
 footer{
     background: #111;
     padding: 15px 23px;
@@ -556,8 +552,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
-
 
 @media (max-width: 1300px) {
     .home .max-width{
