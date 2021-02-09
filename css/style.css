@@ -43,11 +43,12 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .skills, .contact, footer{
+.about, .skills, .services .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
 .skills .skills-content,
+.services .services-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -169,7 +170,7 @@ section .title::after{
     filter: brightness(90%);
 }
 
-/*   
+  
 .home{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
@@ -381,7 +382,7 @@ section .title::after{
     width: 70%;
 }
 
-
+/* 
 .teams .title::after{
     content: "who with me";
 }
