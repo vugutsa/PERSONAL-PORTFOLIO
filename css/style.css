@@ -308,7 +308,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* .skills .title::after{
+.skills .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -381,7 +381,7 @@ section .title::after{
     width: 70%;
 }
 
-.teams .title::after{
+/* .teams .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
@@ -680,4 +680,4 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-} */
+} */ */
