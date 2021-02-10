@@ -170,9 +170,9 @@ section .title::after{
 .home{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
-    height: 100vh;
+    height: 60vh;
     color: #fff;
-    min-height: 500px;
+    min-height: 200px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
@@ -365,16 +365,16 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 75%;
 }
 .skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .python::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .python::before{
     width: 70%;
+}
+.skills-content .right .nodejs::before{
+    width: 55%;
 }
 .projects .title::after{
     content: "my achievements";
