@@ -541,7 +541,19 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
-
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
 @media (max-width: 1300px) {
     .home .max-width{
         margin-left: 0px;
