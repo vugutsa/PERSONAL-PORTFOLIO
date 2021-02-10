@@ -416,7 +416,7 @@ section .title::after{
 .projects .carousel .card:hover img{
     border-color: #fff;
 }
-/* contact section styling */
+
 .contact .title::after{
     content: "get in touch";
 }
